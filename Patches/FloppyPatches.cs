@@ -23,5 +23,14 @@ namespace DiversityNoFloppy.Patches
             DiversityNoFloppy.Logger.LogDebug("Disk spawning blocked!");
             return false;
         }
+
+        [HarmonyPatch(typeof(StartOfRoundPatch))]
+        [HarmonyPatch(nameof(StartOfRoundPatch.ResetShipFurniture))]
+        [HarmonyPrefix]
+        private static bool DiskRespawnBlockerPatch()
+        {
+            DiversityNoFloppy.Logger.LogDebug("Blocking respawning of the floppy reader!");
+            return false;
+        }
     }
 }
