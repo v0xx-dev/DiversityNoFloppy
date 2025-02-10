@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiversityNoFloppy", "DiversityNoFloppy.csproj", "{D1AA970D-6AA2-4460-B485-159C7B51DACF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1AA970D-6AA2-4460-B485-159C7B51DACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1AA970D-6AA2-4460-B485-159C7B51DACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1AA970D-6AA2-4460-B485-159C7B51DACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1AA970D-6AA2-4460-B485-159C7B51DACF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {960B4DE1-AE5E-459D-8F2D-E3CFC662BA64}
+	EndGlobalSection
+EndGlobal
